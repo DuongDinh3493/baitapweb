@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    background-color: #262626;
+
+    .btn__buy-now{
+        float: right;
+        background: #82B440;
+        margin-right: 20px;
+        padding: 5px 20px;
+        margin: 2px 21px;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+    @@ -27,9 +24,10 @@ header{
+        box-shadow: 0 2px 0 #6f9a37;
+        position: relative;
+        font-size: 14px;
+        padding: 5px 20px;
+    
+        line-height: 1.5;
+        top: 11px;
+        border: none;
+    
+    }
