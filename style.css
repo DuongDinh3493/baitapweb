@@ -7,24 +7,70 @@
 header{
     position: relative;
     background-color: #262626;
+}
+.nav__header {
+    height: 54px;
+    z-index: 100;
+    line-height: 54px;
+}
 
-    .btn__buy-now{
-        float: right;
-        background: #82B440;
-        margin-right: 20px;
-        padding: 5px 20px;
-        margin: 2px 21px;
-        color: white;
-        border-radius: 5px;
-        text-decoration: none;
-    @@ -27,9 +24,10 @@ header{
-        box-shadow: 0 2px 0 #6f9a37;
-        position: relative;
-        font-size: 14px;
-        padding: 5px 20px;
+.btn__buy-now{
+    float: right;
+    background: #82B440;
+    margin-right: 20px;
+    padding: 5px 20px;
+    margin: 2px 21px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 93px;
+    box-shadow: 0 2px 0 #6f9a37;
+    position: relative;
+    font-size: 14px;
+    padding: 5px 20px;
+
+    line-height: 1.5;
+    top: 11px;
+    border: none;
+
+}
+
+.container p{
+    text-align: center;
+    color: #777777;
+    font: 12px "Open Sans", sans-serif;
+    padding: 50px 0px 0px;
+    line-height: 1,5;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 700px;
+    width: 1519px;
+    margin: 0 auto;
+  }
+  .migcd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .slide-wrapper {
+    width: 1519px;
+    -webkit-animation: slide 14s ease infinite;
+  }
+ .slide {
+    float: left;
+    height: 700px;
+    width: 1519px;
     
-        line-height: 1.5;
-        top: 11px;
-        border: none;
-    
-    }
+  }
+ @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+  }
